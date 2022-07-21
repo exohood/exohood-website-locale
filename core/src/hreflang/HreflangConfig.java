@@ -3,16 +3,16 @@ package com.exohood.locale.hreflang;
 import java.util.Map;
 
 public class HreflangConfig {
-    private Map<Hreflang, String> hreflangToUrlLocaleMapping;
+    private Map<Hreflang, String> hreflangTolocaleMapping;
     private String xDefault;
 
-    public HreflangConfig(Map<Hreflang, String> hreflangToUrlLocaleMap, String xDefault) {
-        this.hreflangToUrlLocaleMapping = hreflangToUrlLocaleMap;
+    public HreflangConfig(Map<Hreflang, String> hreflangTolocaleMap, String xDefault) {
+        this.hreflangTolocaleMapping = hreflangTolocaleMap;
         this.xDefault = xDefault;
     }
 
-    public Map<Hreflang, String> getHreflangToUrlLocaleMapping() {
-        return hreflangToUrlLocaleMapping;
+    public Map<Hreflang, String> getHreflangTolocaleMapping() {
+        return hreflangTolocaleMapping;
     }
 
     public String getxDefault() {
